@@ -95,10 +95,20 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converter\Converter.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\OpenWeatherMap\City.cs" />
+    <Compile Include="Models\OpenWeatherMap\Coord.cs" />
+    <Compile Include="Models\OpenWeatherMap\Temperature.cs" />
+    <Compile Include="Models\OpenWeatherMap\Weather.cs" />
+    <Compile Include="Models\OpenWeatherMap\WeatherDetails.cs" />
+    <Compile Include="Models\OpenWeatherMap\WeatherInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ForecastService.cs" />
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="ViewModels\ForecastViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
